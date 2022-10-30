@@ -2,4 +2,4 @@
 *.xml
 target
 resources
-
+configuration.properties
