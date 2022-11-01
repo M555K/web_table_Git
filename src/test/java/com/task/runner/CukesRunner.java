@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = "html:target/cucumber-report.html",
         glue = "com/task/step_definitions",
-        features = "src/test/resources/webtableOrder.feature",
+        features = "src/test/resources/features",
         dryRun = false,
         tags = "@webtableAppOrder"
 
